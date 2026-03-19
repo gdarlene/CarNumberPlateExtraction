@@ -32,3 +32,27 @@ car-number-plate-extraction/
 ├── init_project.py
 └── book/                       
 ```
+---
+
+## Installation
+
+```bash
+git clone https://github.com/gdarlene/CarNumberPlateExtraction.git
+cd car-number-plate-extraction
+```
+
+``` pip install -r requirements.txt ```
+
+**N.B** Make sure Tesseract OCR is installed on your system:
+
+- Ubuntu: sudo apt install tesseract-ocr
+
+- Windows: Install from official Tesseract repo and add to PATH
+
+##  Running the project
+
+```bash 
+python init_project.py
+```
+- Run all the files from the camera.py
+```py -m src.camera```
